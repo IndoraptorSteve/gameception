@@ -1,0 +1,53 @@
+"GameInfo"
+{
+	game	"Gameception"
+	title	"GAMECEPTION"
+	type	singleplayer_only
+	nomodels 0
+	nohimodel 1
+	nocrosshair 1
+	supportsvr 1
+	hidden_maps
+	{
+		"test_speakers"		1
+		"test_hardware"		1
+	}
+
+	FileSystem
+	{
+		SteamAppId				220
+
+		SearchPaths
+		{
+			game+mod			gameception/custom/*
+
+			mod+mod_write		|gameinfo_path|.
+			game+game_write		|gameinfo_path|.
+			default_write_path	|gameinfo_path|.
+			gamebin				|gameinfo_path|bin
+
+			game+mod			|appid_220|hl2/hl2_sound_vo_english.vpk
+			game+mod			|appid_220|hl2/hl2_pak.vpk
+
+			game				|appid_220|hl2_complete/hl2_complete_textures.vpk
+			game				|appid_220|hl2_complete/hl2_complete_sound_vo_english.vpk
+			game				|appid_220|hl2_complete/hl2_complete_sound_misc.vpk
+			game				|appid_220|hl2_complete/hl2_complete_misc.vpk
+
+			game				|appid_220|hl2/hl2_textures.vpk
+			game				|appid_220|hl2/hl2_sound_vo_english.vpk
+			game				|appid_220|hl2/hl2_sound_misc.vpk
+			game				|appid_220|hl2/hl2_misc.vpk
+
+			platform			|appid_220|platform/platform_misc.vpk
+
+			game				|appid_220|hl2
+
+			game				|appid_220|hl2_complete
+			game				|appid_220|hl2
+			platform			|appid_220|platform
+
+			game+download	gameception/download
+		}
+	}
+}

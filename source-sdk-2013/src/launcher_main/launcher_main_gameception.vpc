@@ -1,0 +1,22 @@
+$Macro OUTBINNAME "gameception"
+
+$Conditional "MOD_LAUNCHER" "1"
+
+$Include "launcher_main.vpc"
+
+$Configuration
+{
+	$Compiler
+	{
+		$PreprocessorDefinitions	"$BASE;MOD_APPID=220"
+	}
+}
+
+$Project "Launcher Main (Gameception)"
+{
+    $Folder "Resource Files" [$WINDOWS]
+    {
+        $File   "launcher_main_gameception.rc"
+        $File   "res\gameception.ico"
+    }
+}
