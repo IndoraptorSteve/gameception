@@ -26,26 +26,16 @@
 			default_write_path	|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
 
-			game+mod			|appid_220|hl2/hl2_sound_vo_english.vpk
-			game+mod			|appid_220|hl2/hl2_pak.vpk
+			game				|gameinfo_path|../../../Base/hl2/hl2_sound_vo_english.vpk
+			game				|gameinfo_path|../../../Base/hl2/hl2_pak.vpk
+			game				|gameinfo_path|../../../Base/hl2/hl2_textures.vpk
+			game				|gameinfo_path|../../../Base/hl2/hl2_sound_misc.vpk
+			game				|gameinfo_path|../../../Base/hl2/hl2_misc.vpk
 
-			game				|appid_220|hl2_complete/hl2_complete_textures.vpk
-			game				|appid_220|hl2_complete/hl2_complete_sound_vo_english.vpk
-			game				|appid_220|hl2_complete/hl2_complete_sound_misc.vpk
-			game				|appid_220|hl2_complete/hl2_complete_misc.vpk
+			platform			|gameinfo_path|../../../Base/platform/platform_misc.vpk
 
-			game				|appid_220|hl2/hl2_textures.vpk
-			game				|appid_220|hl2/hl2_sound_vo_english.vpk
-			game				|appid_220|hl2/hl2_sound_misc.vpk
-			game				|appid_220|hl2/hl2_misc.vpk
-
-			platform			|appid_220|platform/platform_misc.vpk
-
-			game				|appid_220|hl2
-
-			game				|appid_220|hl2_complete
-			game				|appid_220|hl2
-			platform			|appid_220|platform
+			game				|gameinfo_path|../../../Base/hl2
+			platform			|gameinfo_path|../../../Base/platform
 
 			game+download	gameception/download
 		}
